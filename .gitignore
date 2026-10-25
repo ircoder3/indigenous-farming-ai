@@ -1,0 +1,22 @@
+# Virtual environments (do NOT push these)
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Saved models (regenerate from notebooks/src)
+models/*.pkl
+models/*.joblib
